@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #007491;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+h1{
+    color:white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image: url("C:\python\coding\TTCA_homepage\homepage\templates\images\logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+
+}
+.TTCA{
+    background-color: darkgray;
+    color: white;
+    height: 95vh;
+    background-image: image("C:\python\coding\TTCA_homepage\homepage\images\logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
